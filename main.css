@@ -175,6 +175,11 @@
   text-align: center;
 }
 
+.smaller-size {
+  font-size: 30px;
+  vertical-align: top;
+}
+
 .italic {
   font-style: italic;
 }

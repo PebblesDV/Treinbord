@@ -3,7 +3,7 @@ let showingTimeLeft = true; //time left is set to true
 function showTime() {
   const date = new Date();
   const hours = date.getHours();
-  const minutes = date.getMinutes();
+  const minutes = date.getMinutes().toString().padStart(2, "0");
 
   document.getElementById("minutes").innerHTML = `${hours}:${minutes}`; //current time
 }
