@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treinbord</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="flex-container">
       <div class="left"></div>
       <div class="middle">
-        <p>Hierna/next: 08:54 IC Venlo</p>
+        <div>
+          <div class="top-information">
+            <p class="minutes" id="minutes">
+              1 <span class="smaller">minuut</span>
+            </p>
+            <div class="train-type-wrapper">
+              <p class="train-type">Intercity</p>
+              <img class="logo" src="images\logo.svg" />
+            </div>
+          </div>
+          <p class="end-station">Heerlen</p>
+          <p class="upcoming-stations">
+            via 's-Hertogenbosch, Eindhoven, Weert, Roermond en Sittard
+          </p>
+        </div>
+        <div class="bottom-information">
+          <img class="train" src="images\trein.png" />
+          <div class="next-train">
+            <p class="next-train-text">
+              Hierna/<span class="italic">next</span>: 08:54 IC Venlo
+            </p>
+          </div>
+        </div>
       </div>
       <div class="right">
         <div class="all-text">

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Roboto:wght@700&display=swap");
 
 * {
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .flex-container {
@@ -16,12 +16,79 @@
 }
 
 .middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #e2e5fc;
   width: 480px;
   height: 265px;
   border: 35px solid #015be5;
   margin-left: 1px;
   margin-right: 1px;
+}
+
+.top-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  color: #000066;
+}
+
+.smaller {
+  font-size: 20px;
+}
+
+.minutes {
+  padding-left: 10px;
+}
+
+.train-type-wrapper {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.end-station {
+  font-size: 30px;
+  color: #000066;
+  padding-left: 10px;
+}
+
+.upcoming-stations {
+  font-size: 20px;
+  color: #000066;
+  padding-left: 10px;
+  margin-top: 15px;
+  max-width: 75%;
+}
+
+.bottom-information {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.train {
+  height: 35px;
+}
+
+.next-train {
+  display: flex;
+  align-items: center;
+  background-color: #000066;
+  height: 25px;
+  width: 100%;
+}
+
+.next-train-text {
+  color: white;
+  padding-left: 5px;
 }
 
 .right {
@@ -33,16 +100,19 @@
 .all-text {
   margin-top: 35px;
   margin-left: 16px;
+  color: #000066;
 }
 
 .platform {
   background-color: white;
   width: 76px;
   height: 20px;
+  margin-left: 20px;
 }
 
 .platform-text {
   font-size: 15px;
+  padding-left: 5px;
 }
 
 .number {
@@ -57,4 +127,8 @@
 .number-text {
   font-size: 48px;
   text-align: center;
+}
+
+.italic {
+  font-style: italic;
 }
